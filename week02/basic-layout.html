@@ -1,48 +1,176 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Basic HTML Structure</title>
-<meta name="description" content="A basic HTML structure example using semantic HTML elements">
-<meta name="author" content="Gerald Abiayi">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic HTML Structure</title>
+  <meta name="description" content="A basic HTML structure example using semantic HTML elements">
+  <meta name="author" content="Gerald Abiayi">
+
+  <!-- Internal CSS -->
+  <style>
+    /* General body styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #4CAF50;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content styles */
+    main {
+      display: flex;
+      flex-direction: column;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    main h1 {
+      text-align: center;
+      color: #4CAF50;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    section p {
+      padding: 5px 0;
+    }
+
+    /* Aside (sidebar) styles */
+    aside {
+      max-width: 200px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    aside img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    /* Responsive adjustments */
+    @media (min-width: 768px) {
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      main {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      main > section {
+        width: 60%;
+      }
+
+      aside {
+        width: 30%;
+        margin: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-<img src="images/basic-logo.png" alt="Website Logo" width="128" height="128">
-</header>
+  <!-- Header -->
+  <header>
+    <img src="images/basic-logo.png" alt="Website Logo" width="128" height="128">
+  </header>
 
-<nav>
-<ul>
-<li><a href="https://www.google.com">Google</a></li>
-<li><a href="https://www.wikipedia.org">Wikipedia</a></li>
-</ul>
-</nav>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="https://www.google.com" target="_blank">Google</a></li>
+      <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+    </ul>
+  </nav>
 
-<main>
-<h1>Basic HTML Structure</h1>
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h1>Basic HTML Structure</h1>
 
-<section>
-<h2>Heading</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-</section>
+      <h2>Heading One</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-<section>
-<h2>Heading</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-</section>
+      <h2>Heading Two</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
 
-</main>
+    <!-- Sidebar -->
+    <aside>
+      <img src="https://churchofjesuschristtemples.org/assets/img/temples/aba-nigeria-temple/aba-nigeria-temple-lds-273999-wallpaper.jpg" alt="Temple Image">
+    </aside>
+  </main>
 
-<aside>
-<img src="https://churchofjesuschristtemples.org/assets/img/temples/aba-nigeria-temple/aba-nigeria-temple-lds-273999-wallpaper.jpg" width="200" alt="Temple">
-</aside>
-
-<footer>
-<p>Gerald Abiayi</p>
-</footer>
+  <!-- Footer -->
+  <footer>
+    <p>Gerald Abiayi</p>
+  </footer>
 
 </body>
 </html>
