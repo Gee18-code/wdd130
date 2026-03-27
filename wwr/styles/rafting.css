@@ -72,7 +72,7 @@ nav, p, section, article {
   width: 100%;
   padding: 16px;
   text-align: center;
-  background-color: var(--accent1-color);
+  background-color: rgba(0,0,0,0.6);
   color: black;
 }
 
