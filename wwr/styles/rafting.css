@@ -72,8 +72,8 @@ nav, p, section, article {
   width: 100%;
   padding: 16px;
   text-align: center;
-  background-color: rgba(0,0,0,0.5);
-  color: white;
+  background-color: var(--accent1-color);
+  color: black;
 }
 
 .hero article {
