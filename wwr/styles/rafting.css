@@ -94,3 +94,12 @@ nav, p, section, article {
   margin: 20px 0;
   border-radius: 10px;
 }
+
+.box {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.hero h1 {
+  background-color: var(--accent1-color);
+}
