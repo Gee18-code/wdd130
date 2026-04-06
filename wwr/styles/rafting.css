@@ -73,7 +73,7 @@ nav, p, section, article {
   padding: 16px;
   text-align: center;
   background-color: rgba(0,0,0,0.6);
-  color: black;
+  color: white;
 }
 
 .hero article {
@@ -88,18 +88,11 @@ nav, p, section, article {
 }
 
 .box {
-  background-color: #e6f2ff;
+  background-color: var(--primary-color);
   border-left: 5px solid #0b3c5d;
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
-}
-
-.box {
-  background-color: var(--secondary-color);
   color: white;
 }
 
-.hero h1 {
-  background-color: var(--accent1-color);
-}
