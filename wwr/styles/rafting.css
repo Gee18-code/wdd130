@@ -96,3 +96,29 @@ nav, p, section, article {
   color: white;
 }
 
+
+
+.contact-info,
+.map,
+.employees,
+.contact-form {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
