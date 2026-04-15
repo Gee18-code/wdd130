@@ -112,13 +112,10 @@ form {
 }
 
 button {
-    background-color: #0077cc;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 button:hover {
-    background-color: #005fa3;
+  background-color: var(--primary-color);
 }
