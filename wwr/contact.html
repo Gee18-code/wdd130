@@ -52,7 +52,7 @@
     </figure>
 
     <figure>
-        <img src="images/employee3.jpg" alt="Mike Johnson, Customer Support Specialist ">
+        <img src="images/employee3.jpg" alt="Mike Johnson, Customer Support Specialist">
 
         <figcaption>Mike Johnson - Customer Support</figcaption>
     </figure>
@@ -61,48 +61,43 @@
 <section class="contact-form">
     <h2>Send Us a Message</h2>
 
-    <form>
-        <!-- Name -->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+<form>
+    <!-- Name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
-        <!-- Email -->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-        <!-- Purpose -->
-        <p>Purpose of Message:</p>
+    <!-- Purpose -->
+    <p>Purpose of Message:</p>
 
-        <label>
-            <input type="radio" name="purpose" value="general"> General Inquiry
-        </label>
+    <input type="radio" id="general" name="purpose" value="general">
+    <label for="general">General Inquiry</label>
 
-        <label>
-            <input type="radio" name="purpose" value="reservation"> Reservation Question
-        </label>
+    <input type="radio" id="reservation" name="purpose" value="reservation">
+    <label for="reservation">Reservation Question</label>
 
-        <label>
-            <input type="radio" name="purpose" value="suggestion"> Website Suggestion
-        </label>
+    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+    <label for="suggestion">Website Suggestion</label>
 
-        <!-- Message -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+    <!-- Message -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
 
-        <!-- Newsletter -->
-        <label>
-            <input type="checkbox" name="subscribe">
-            Please subscribe me to the monthly newsletter
-        </label>
+    <!-- Newsletter -->
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
 
-        <!-- Submit -->
-        <button type="submit">Send Message</button>
+    <!-- Submit -->
+    <button type="submit">Send Message</button>
         <!-- Radio buttons -->
          
             <input type="checkbox" id="subscribe" name="subscribe">
             Please subscribe me to the monthly newsletter
           </label>
-    </form>
+</form>
 </section>
 </main>
 
